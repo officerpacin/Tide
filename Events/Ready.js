@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { ActivityType } = require('discord.js');
+const mongoose = require('mongoose');
 const DataSchema = require('../Schemas/Data');
 
 module.exports = {
@@ -9,7 +10,7 @@ module.exports = {
         console.log(`${client.user.tag} is now ready.`);
 
         async function timedCheck() {
-            const Guild = await client.guilds.fetch('1309597899021222000');
+            const Guild = await client.guilds.fetch('1377463476062130188');
             const MemberCountChannel = await client.channels.fetch('1327944012522323979');
             const BoostCountChannel = await client.channels.fetch('1327944013243748485');
 
