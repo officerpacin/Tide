@@ -1,0 +1,19 @@
+{
+  "name": "tide-utilities",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Officerpacin",
+  "license": "ISC",
+  "description": "The official discord bot for Tide Studios!",
+  "dependencies": {
+    "discord-html-transcripts": "^3.2.0",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "noblox.js": "^6.1.1",
+    "path": "^0.12.7"
+  }
+}
